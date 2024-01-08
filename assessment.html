@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Assessment</title>
+</head>
+
+<body>
+	<h2>TEXT</h2>
+	<p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+		aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+		anim id est laborum.
+	</p>
+	<blockquote>
+		<p><em><strong>Consectetur</strong> adipiscing elit. Vestibulum eget bibendum orci. Nulla facilisi. Proin vel
+				lacus
+				vitae felis dignissim scelerisque a at neque. Nam aliquet sapien eu velit congue, vitae luctus justo
+				tincidunt.
+				Duis vel dolor vel quam tincidunt cursus a in sapien. Integer eu dui sed sapien cursus vestibulum. Fusce
+				eleifend euismod est, a posuere orci tr.
+			</em></p>
+	</blockquote>
+	<p><strong>Adipiscing</strong> elit. Praesent in ullamcorper lacus. Ut id massa ut odio vestibulum
+		efficitur. Sed
+		sagittis nisl a felis pellentesque facilisis. Integer nec arcu ac elit fermentum dapibus. Fusce euismod
+		ultricies ex, vitae ultrices ex vestibulum non. Vivamus ultrices posuere ex, eu cursus eros consectetur
+		nec. Sed
+		fermentum bibendum metus, eget varius justo eleifend vel.
+	</p>
+	<h2>TABLE</h2>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2">Team Name</th>
+				<th colspan="2">First Half</th>
+				<th colspan="2">Second Half</th>
+				<th rowspan="2">Final</th>
+			</tr>
+			<tr>
+				<th>Q1</th>
+				<th>Q2</th>
+				<th>Q3</th>
+				<th>Q4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Denver</td>
+				<td>7</td>
+				<td>3</td>
+				<td>0</td>
+				<td>7</td>
+				<td>17</td>
+			</tr>
+			<tr>
+				<td>Chicago</td>
+				<td>0</td>
+				<td>6</td>
+				<td>3</td>
+				<td>6</td>
+				<td>15</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Total</td>
+				<td>7</td>
+				<td>9</td>
+				<td>3</td>
+				<td>13</td>
+				<td>32</td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>LIST</h2>
+	<ul>
+		<li>
+			<img src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" alt="Denver Broncos Logo"
+				width="50" height="50" style="vertical-align: middle;">
+			<a href="https://www.denverbroncos.com/">Denver Broncos</a>
+		</li>
+		<ul>
+			<li>Coach: Gary Kubiak</li>
+			<li>QB
+				<ol>
+					<li>Brock Oseiler</li>
+					<li>Trevor Siemian</li>
+					<li>Peyton Manning (injured)</li>
+				</ol>
+			</li>
+		</ul>
+		<li>
+			<img src="https://upload.wikimedia.org/wikipedia/en/1/15/Chicago_Bears_logo_primary.svg"
+				alt="Chicago Bears Logo" width="50" height="50" style="vertical-align: middle;">
+			<a href="https://www.chicagobears.com/">Chicago Bears</a>
+		</li>
+		<ul>
+			<li>Coach: Matt Eberflus</li>
+			<li>QB
+				<ol>
+					<li>Jay Cutler</li>
+					<li>David Foles</li>
+				</ol>
+			</li>
+		</ul>
+	</ul>
+	<h2>FORM</h2>
+	<form>
+		<!-- Name -->
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName">
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" name="lastName">
+		<br>
+		<label for="favoriteSport">Favorite Sport:</label>
+		<select id="favoriteSport" name="favoriteSport" required>
+			<option value="" disabled selected>Select your favorite sport</option>
+			<option value="football">Football</option>
+			<option value="basketball">Basketball</option>
+			<option value="baseball">Baseball</option>
+			<option value="hockey">Hockey</option>
+			<!-- Add more sport options as needed -->
+		</select>
+		<label for="played">Played:</label>
+		<input type="checkbox" id="played" name="played">
+
+		<label for="attended">Attended:</label>
+		<input type="checkbox" id="attended" name="attended">
+
+		<label for="coached">Coached:</label>
+		<input type="checkbox" id="coached" name="coached">
+
+		<label for="bet">Bet on:</label>
+		<input type="checkbox" id="bet" name="bet">
+        <br>
+		<label>Preferred Version:</label>
+		<br>
+		<label>
+			<input type="radio" name="preference" value="amateur">
+			Amateur
+		</label>
+		<label>
+			<input type="radio" name="preference" value="college">
+			College
+		</label>
+		<label>
+			<input type="radio" name="preference" value="professional">
+			Professional
+		</label>
+
+		<br>
+		<input type="submit" value="Submit Query">
+	</form>
+</body>
+
+</html>
