@@ -1,0 +1,72 @@
+/* User story 1 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana', sans-serif;
+    color: goldenrod;
+}
+
+/* User story 2 */
+table {
+    font-weight: bold;
+    color: coral;
+    border: 2px solid darkcyan;
+}
+
+/* User story 3 */
+ul {
+    list-style-type: square;
+}
+
+/* User story 4 */
+a:hover {
+    background-color: lightblue;
+    text-decoration-line: none;
+}
+
+/* User story 5 */
+blockquote {
+    background-color: darkblue;
+    color: white;
+}
+
+/* User story 6 */
+#teamRoster > li:first-child{
+    position: relative;
+    height: 176px;
+    width: 295px;
+}
+
+#teamRoster > li:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+#teamRoster > li:last-child {
+    position: relative;
+    height: 130px;
+    width: 194px;
+  }
+  
+  #teamRoster > li:last-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg');
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+  
+
+[alt*="Logo"] {
+    display:none;
+}
+
+#checkbox-grid {
+    list-style-type: none;
+}
