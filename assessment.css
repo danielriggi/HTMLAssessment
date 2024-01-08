@@ -29,7 +29,7 @@ blockquote {
     color: white;
 }
 
-/* User story 6 */
+/* User story 6, Stretch goal 3 */
 #teamRoster > li:first-child{
     position: relative;
     height: 176px;
@@ -46,6 +46,7 @@ blockquote {
     background: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
     opacity: 0.25; 
   }
+
 #teamRoster > li:last-child {
     position: relative;
     height: 130px;
